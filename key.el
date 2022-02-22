@@ -16,3 +16,7 @@
                 (interactive)
                 (find-file "~/hotties.txt")))
 
+(defalias 'l (lambda ()
+                (interactive)
+                (better-copy)))
+
