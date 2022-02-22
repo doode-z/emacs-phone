@@ -41,3 +41,7 @@
   (interactive)
   (switch-to-buffer "*scratch*")
   (leaf/except-close))
+
+(defun better-copy ()
+  (interactive)
+  (kill-ring-save (point) (line-end-position)))
